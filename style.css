@@ -88,7 +88,7 @@ body {
   font-family: var(--font-familly-body-calls-opensans);
   font-size: 1.125rem;
   font-weight: 400;
-  /* height: 100dvh; */
+  height: 100dvh;
 }
 /*******************************************************
                         Main Css
@@ -104,7 +104,7 @@ body {
     "alias-main"
     "alias-footer";
     /* padding: 2rem; */
-    height: 100dvh;
+    
 }
 /*******************************************************
                         Main card Css
@@ -139,6 +139,7 @@ body {
   background: url(/images/bg-hero-mobile.svg);
   background-size: cover;
   background-repeat: no-repeat;
+  background-color: hsl(var(--neatral-Very-Pale-Cyan));
   /* background-clip: content-box; */
   background-origin: content-box;
 
@@ -225,6 +226,25 @@ margin: 2rem;
   }
   .main-hero {
     background: url(./images/bg-hero-desktop.svg);
+    background-color: hsl(var(--neatral-Very-Pale-Cyan));
+  }
+  .header{
+
+  }
+  .text-hero{
+    display: flex;
+  }
+  .growtogether{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+  }
+  .growtogether> img, .growp-para{
+    flex-basis: 50%;
+    /* max-width: 100%; */
+    /* flex: 1 1 50%; */
+    /* height: auto; */
   }
   .buildcommunity{
     right: auto;
