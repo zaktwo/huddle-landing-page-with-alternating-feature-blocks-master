@@ -233,6 +233,7 @@ grid-template-rows: 1fr 1fr;
   .main-hero {
     background: url(./images/bg-hero-desktop.svg);
     background-color: hsl(var(--neatral-Very-Pale-Cyan));
+   
   }
   .header{
 
@@ -245,19 +246,24 @@ grid-template-rows: 1fr 1fr;
     justify-content: center;
     align-items: center;
     flex-direction: row-reverse;
+   
     /* display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: 1fr 1fr;
     height: 100dvh;
     grid-auto-flow: dense; */
+    border: 4px solid yellow;
+   
   }
   .image-grow{
     flex-basis: 50%;
     border: 3px solid red;
+    height: auto;
   }
   .growp-para{
     flex-basis: 50%;
     border: 3px solid black;
+    height: auto;
   }
   /* .growtogether> img{
     grid-column: 2;
