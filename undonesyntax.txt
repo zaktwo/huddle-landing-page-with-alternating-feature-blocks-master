@@ -3,6 +3,14 @@ This sis for the cards i tried to make them responsive but i am lacking in this
 area, need to make a guid how to solve each problem so i don't forget how i done 
 it every time 
 **********************************************************************************
+The issue was not on CSS but it was due me not wraping html tags properly 
+That end up making the divs act weird and give so many overflows that i couldn't 
+figure why until i wraped the main-hero divs properly that every thing end up 
+working.
+**********************************************************************************
+Why is CSS syntax is not grouped together for a better looking code because i am 
+newbie and i want to see how every div react to any style i apply
+**********************************************************************************
 
  .growtogether{
       display: flex;
