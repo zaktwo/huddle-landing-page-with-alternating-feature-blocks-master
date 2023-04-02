@@ -1,0 +1,66 @@
+**********************************************************************************
+This sis for the cards i tried to make them responsive but i am lacking in this 
+area, need to make a guid how to solve each problem so i don't forget how i done 
+it every time 
+**********************************************************************************
+
+ .growtogether{
+      display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+/*    
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(1fr, 1fr)) ;
+    height: 100dvh;
+    grid-auto-flow: dense; */
+    border: 4px solid yellow;
+   
+  }
+  .image-grow{
+    /* flex-basis: 50%; */
+    border: 3px solid red;
+    flex: 1;
+  }
+  .growp-para{
+    flex-basis: 50%;
+    border: 3px solid black;
+    height: auto;
+  }
+  /* .growtogether> img{
+    grid-column: 2;
+  } */
+  .flowing-conv{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    height: 100dvh;
+  }
+  .growp-para{
+    grid-row: 1;
+    grid-column: 1;
+   
+  }
+  .flowing-conv> img{
+    grid-row: 1;
+    grid-column: 2;
+  }
+  .users{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    height: 100dvh;
+  }
+  .users> img{
+    grid-column: 2;
+  }
+  .buildcommunity{
+    right: auto;
+    left: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .footer{
+   
+  }
