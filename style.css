@@ -254,23 +254,24 @@ body {
   height: 100dvh;
   grid-auto-flow: dense;
   border: 4px solid yellow;
-  place-content: center;
+  place-items: center;
  
 }
 
-.growp-para{
+/* .growp-para{
   flex-basis: 50%;
   border: 3px solid black;
   height: auto;
-}
-.growtogether> img{
+} */
+/* .growtogether> img{
   grid-column: 2;
-}
+} */
 .flowing-conv{
   display: grid;
   grid-template-rows: 1fr;
   grid-template-columns: 1fr 1fr;
-  height: 100dvh;
+  /* height: 100dvh; */
+  place-items: center;
 }
 .growp-para{
   grid-row: 1;
@@ -285,16 +286,18 @@ body {
   display: grid;
   grid-template-rows: 1fr;
   grid-template-columns: 1fr 1fr;
-  height: 100dvh;
+  /* height: 100dvh; */
+  place-items: center;
 }
 .users> img{
   grid-column: 2;
 }
 .buildcommunity{
-  right: auto;
-  left: auto;
+  /* right: auto;
+  left: auto; */
   margin-left: auto;
   margin-right: auto;
+  bottom: -4rem;
 }
 .footer{
  
