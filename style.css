@@ -241,18 +241,27 @@ grid-template-rows: 1fr 1fr;
     display: flex;
   }
   .growtogether{
-    display: grid;
-    /* justify-content: center;
+      display: flex;
+    justify-content: center;
     align-items: center;
-    flex-direction: row-reverse; */
+    flex-direction: row-reverse;
+    /* display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: 1fr 1fr;
     height: 100dvh;
-    grid-auto-flow: dense;
+    grid-auto-flow: dense; */
   }
-  .growtogether> img{
+  .image-grow{
+    flex-basis: 50%;
+    border: 3px solid red;
+  }
+  .growp-para{
+    flex-basis: 50%;
+    border: 3px solid black;
+  }
+  /* .growtogether> img{
     grid-column: 2;
-  }
+  } */
   .flowing-conv{
     display: grid;
     grid-template-rows: 1fr;
