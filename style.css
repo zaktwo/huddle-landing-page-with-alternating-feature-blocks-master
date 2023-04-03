@@ -80,7 +80,21 @@ h5,
 h6 {
   overflow-wrap: break-word;
 }
+a:link {
+  text-decoration: none;
+}
 
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
 /*******************************************************
                         Shared CSS
 *******************************************************/
@@ -323,7 +337,7 @@ ul{
  padding-bottom: 0;
 }
 .logo-footer{
- background-color:  white;
+ color:  white;
 }
 .footer_wrapper{
 display: flex;
@@ -333,6 +347,10 @@ padding-bottom: 0;
 }
 .footer-desc, .adivce, .career, .social{
   flex-basis: 25%;
+}
+.footer-desciption, .phone, .mail{
+  display: flex;
+  flex: 1;
 }
 .social {
   display: flex;
@@ -354,7 +372,7 @@ padding-bottom: 0;
   border-radius: 50%;
   
 }
-.social> i{
+.fa-twitter{
   color: white;
   
 }
