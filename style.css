@@ -178,6 +178,20 @@ ul {
   text-align: center;
   padding-top: 6rem;
 }
+.try-free{
+  border: none;
+  background-color: white;
+  color: black;
+  box-shadow: 0px 0px 31px -6px #a8a8a8;
+  width: 10rem;
+  height: 3rem;
+  border-radius: 3rem;
+  transition: all 0.3s ease-out;
+}
+.try-free:hover{
+  cursor: pointer;
+  transform: scale(1.05);
+}
 .hero-para{
   padding-bottom: 4rem;
 }
@@ -451,7 +465,7 @@ transform: scale(1.1);
                      footer Css
   *******************************************************/
   .footer {
-    padding-top: 7rem;
+    padding-top: 4rem;
     display: flex;
     justify-content: space-around;
     flex-direction: column;
@@ -467,7 +481,7 @@ transform: scale(1.1);
     align-items: center;
     padding: 4rem;
     padding-bottom: 0;
-    border: 4px solid red;
+    /* border: 4px solid red; */
     flex-shrink: 1;
   }
   /* .footer-desciption{
@@ -505,10 +519,12 @@ transform: scale(1.1);
   align-items: start;
   }
   .phone, .mail{
-    height: 7%;
+    height: 100%;
+  min-height: 0;
   }
   .foot-img{
-    transform: scale(0.9);
+    width: 30px;
+    height: 30px;
     padding-right: 1rem;
   }
   .social {
