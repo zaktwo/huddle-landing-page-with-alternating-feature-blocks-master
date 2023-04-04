@@ -339,6 +339,7 @@ transform: scale(1.1);
     grid-template-rows: 1fr;
     grid-template-columns: 1fr 1fr;
     padding: 0 3rem;
+    text-align: start;
   }
   /*******************************************************
                   grow to gether Css
