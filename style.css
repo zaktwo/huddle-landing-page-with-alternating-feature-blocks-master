@@ -198,10 +198,9 @@ ul {
   transform: scale(1.1);
 }
 /*******************************************************
-                  grow together Css
+                  Cards shared Css
 *******************************************************/
-.growtogether {
-  grid-area: alias-grow;
+.growtogether, .flowing-conv, .users{
   -webkit-box-shadow: 0px 0px 31px -6px #a8a8a8;
   box-shadow: 0px 0px 31px -6px #a8a8a8;
   border-radius: var(--border);
@@ -209,34 +208,25 @@ ul {
   margin: 2rem;
   display: grid;
   grid-template-rows: 1fr 1fr;
+}
+/*******************************************************
+                  grow together Css
+*******************************************************/
+.growtogether {
+  grid-area: alias-grow;
+ 
 }
 /*******************************************************
                      flow Css
 *******************************************************/
 .flowing-conv {
   grid-area: alias-flow;
-  -webkit-box-shadow: 0px 0px 31px -6px #a8a8a8;
-  box-shadow: 0px 0px 31px -6px #a8a8a8;
-  border-radius: var(--border);
-  padding: 2rem;
-
-  margin: 2rem;
-  display: grid;
-  grid-template-rows: 1fr 1fr;
 }
 /*******************************************************
                     Users Css
 *******************************************************/
 .users {
   grid-area: alias-user;
-  -webkit-box-shadow: 0px 0px 31px -6px #a8a8a8;
-  box-shadow: 0px 0px 31px -6px #a8a8a8;
-  border-radius: var(--border);
-  padding: 2rem;
-  margin: 2rem;
-  display: grid;
-  grid-template-rows: 1fr 1fr;
- 
 }
 /*******************************************************
                      Build Css
